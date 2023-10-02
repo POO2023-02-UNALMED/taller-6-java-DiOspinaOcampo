@@ -3,7 +3,7 @@ package vehiculos;
 public class Vehiculo {
 	protected String placa;
 	protected int puertas;
-	protected int veolocidadMaxima;
+	protected int velocidadMaxima;
 	protected String nombre;
 	protected int precio;
 	protected int peso;
@@ -11,11 +11,11 @@ public class Vehiculo {
 	protected Fabricante fabricante;
 	static int cantidadVehiculos = 0;
 	
-	public Vehiculo(String placa, int puertas, int veolocidadMaxima, String nombre, int precio, int peso,
+	public Vehiculo(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso,
 			String traccion, Fabricante fabricante) {
 		this.placa = placa;
 		this.puertas = puertas;
-		this.veolocidadMaxima = veolocidadMaxima;
+		this.velocidadMaxima = velocidadMaxima;
 		this.nombre = nombre;
 		this.precio = precio;
 		this.peso = peso;
@@ -37,10 +37,10 @@ public class Vehiculo {
 	public void setPuertas(int puertas) {
 		this.puertas = puertas;
 	}
-	public int getVeolocidadMaxima() {
+	public int getVelocidadMaxima() {
 		return veolocidadMaxima;
 	}
-	public void setVeolocidadMaxima(int veolocidadMaxima) {
+	public void setVelocidadMaxima(int veolocidadMaxima) {
 		this.veolocidadMaxima = veolocidadMaxima;
 	}
 	public String getNombre() {
