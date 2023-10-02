@@ -38,10 +38,10 @@ public class Vehiculo {
 		this.puertas = puertas;
 	}
 	public int getVelocidadMaxima() {
-		return veolocidadMaxima;
+		return velocidadMaxima;
 	}
-	public void setVelocidadMaxima(int veolocidadMaxima) {
-		this.veolocidadMaxima = veolocidadMaxima;
+	public void setVelocidadMaxima(int velocidadMaxima) {
+		this.velocidadMaxima = velocidadMaxima;
 	}
 	public String getNombre() {
 		return nombre;
